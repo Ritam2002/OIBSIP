@@ -1,0 +1,104 @@
+html {
+    font-size: 10px;
+    font-family: 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+  }
+  
+  body {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: justify;
+    color: #000000;
+    background-color: #9a6516;
+    margin: 30;
+  }
+  
+  .thin-silver-border {
+    border-color: #674309;
+    border-width: 0.5px;
+    background-color: rgb(255, 255, 255);
+    
+  }
+  
+  h1 {
+    text-align: center;
+    color: #000000;
+    font-size: 4rem;
+  }
+  
+  h2 {
+    color: #000000;
+    padding: 30px 10px 20px 0px;
+    
+    
+  }
+  
+  @media (max-width: 460px) {
+    h2 {
+      text-align: center justify;
+    }
+  }
+  
+  #main {
+    margin: 20px 10px 20px 10px;
+    padding: 70px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  @media (max-width: 460px) {
+    #main {
+      margin: 20px 10px 20px 10px;
+    }
+  }
+  
+  img {
+    width: 50%;
+    max-width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  
+  #img-div {
+    background: #000000;
+    padding: 10px;
+    margin: 0px;
+  }
+  
+  #img-caption {
+    text-align: center;
+    font-style: italic;
+    font-size: 1.3rem;
+    margin: 5px 0px 5px 0px;
+  }
+  
+  @media (max-width: 460px) {
+    #img-caption {
+      font-size: 1rem;
+      line-height: 1.2;
+    }
+  }
+  
+  ul {
+    max-width: 600px;
+    text-align: left;
+    line-height: 1.2;
+    margin: 0 auto 0 auto;
+  }
+  
+  @media (max-width: 460px) {
+    ul {
+      text-align: left;
+    }
+  }
+  
+  li {
+    padding: 0px 0px 20px 0px;
+  }
+  
+  @media (max-width: 460px) {
+    li {
+      padding: 0px 30px 20px 0px;
+    }
+  }
