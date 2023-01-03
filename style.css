@@ -7,13 +7,13 @@ html {
     font-size: 1.5rem;
     line-height: 1.5;
     text-align: justify;
-    color: #000000;
-    background-color: #9a6516;
+    color: #090909;
+    background-color: #000000;
     margin: 30;
   }
   
   .thin-silver-border {
-    border-color: #674309;
+    border-color: #22211f;
     border-width: 0.5px;
     background-color: rgb(255, 255, 255);
     
@@ -28,8 +28,7 @@ html {
   h2 {
     color: #000000;
     padding: 30px 10px 20px 0px;
-    
-    
+    text-align: center;
   }
   
   @media (max-width: 460px) {
@@ -39,10 +38,10 @@ html {
   }
   
   #main {
-    margin: 20px 10px 20px 10px;
+    margin: 50px 50px 50px 50px;
     padding: 70px;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(174, 167, 167, 0.57);
   }
   
   @media (max-width: 460px) {
@@ -61,7 +60,7 @@ html {
   }
   
   #img-div {
-    background: #000000;
+    background: #12111126;
     padding: 10px;
     margin: 0px;
   }
@@ -99,6 +98,6 @@ html {
   
   @media (max-width: 460px) {
     li {
-      padding: 0px 30px 20px 0px;
+      padding: 0px 30px 20px 10px;
     }
   }
